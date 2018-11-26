@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    tools:context=".Player">
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:progressTint="#00ff00"
+        android:thumbTint="#ff22"
+        android:id="@+id/seekbar"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnprev"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_name"/>
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnbackward"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_backward"/>
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnplay"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_play"/>
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnforward"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_forward"/>
+        <Button
+            android:layout_margin="5dp"
+            android:id="@+id/btnnext"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_action_next"/>
+    </LinearLayout>
+
+
+</LinearLayout>
